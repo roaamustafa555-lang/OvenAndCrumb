@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <link href="Login.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+        <div class="fullpage">
+
+            <div class="parent-main">
+                <div class="main">
+
+                    <form action="login.php" method="post">
+                        <h1 id="header">
+                            Login
+                        </h1>
+                        <div class="input-box">
+                            <input type="text" name="username" size="35" required />
+                            <label>
+                                Username
+                            </label>
+                        </div>
+
+                        <div class="input-box">
+                            <input type="password" name="password" pattern=".{8,}"  required/>
+                            <label>
+                                Password
+                            </label>
+                        </div>
+
+                        <div id="remember-forgot">
+                            <label>
+                                <input type="checkbox" name="remember" />
+                                Remember me
+                            </label>
+                            <a href="newpassword.html" class="forgot"> Forgot Password? </a>
+                        </div>
+                        <div>
+                            <input type="submit" class="login-btn" name="login-btn" value="Login" />
+
+                        </div>
+
+                        <div class="register">
+                            <p>
+                                Don't have account?
+                                <a href="register.html" class="regester">
+                                    Regester
+                                </a>
+                            </p>
+
+                        </div>
+                        <div class="edit-accaunt">
+                            <a href="deleteacc.html">
+                               Delete your account?
+                            </a>
+                        </div>
+                        <div class="go-back">
+                            <a href="login.html">
+                               &larr; Back
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="parent-logo">
+                <img src="oven and crumb.svg" class="logo" width="500px" />
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+
+</html>

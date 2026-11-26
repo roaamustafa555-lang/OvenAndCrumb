@@ -1,0 +1,247 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-color: #f3e6dd;
+    background: url("login-background4.jpg") no-repeat;
+    background-size: 100px 100px;
+    background-size: cover;
+    background-position: 0px -650px;
+}
+
+.main {
+    position: relative;
+    top: calc(50vh - 250px);
+    left: calc(50% - 250px);
+    height: 500px;
+    width: 500px;
+    background-color: #f3e6dd;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+
+}
+
+#header {
+    text-align: center;
+    color: white;
+
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+.input-box input {
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;
+    color: white;
+
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+/*
+.input-box icon{
+    position: absolute;
+    right: 8px;
+    line-height: 57px;
+}*/
+
+#remember-forgot {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#remember-forgot label input {
+    margin-right: 3px;
+}
+
+#remember-forgot a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+	margin-top:5px;
+	margin-bottom:5px;
+    font-size: 1em;
+    transition: 0.4s;
+}
+
+.login-btn:hover {
+    background-color: gray;
+    color: white;
+    margin: 10px 0 10px 0;
+
+}
+
+.login-btn:active {
+    background-color: white;
+}
+
+.register {
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    position: relative;
+    top: calc(50% - 200px);
+    left: calc(50% - 250px);
+
+}
+
+.fullpage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.next{
+    /* position: relative;
+    left:70%; */
+    
+}
+.next a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.next a:hover {
+
+    color: gray;
+}
+
+.parent-main,
+.parent-logo {
+    width: 50%;
+}
+
+.edit-accaunt a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+
+}
+
+.edit-accaunt {
+    position: relative;
+    left: 30%;
+}
+
+.edit-accaunt a:hover {
+    text-decoration: underline;
+}
+
+.go-back a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+
+}
+
+.go-back {
+    margin: 15px;
+}
+
+.go-back a:hover{
+    text-decoration: underline;
+}
+
+.delete{
+	
+}
+@media (max-width: 1200px) {
+    .fullpage {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+
+    section {
+        background-position: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .parent-main,
+    .parent-logo {
+        width: 100vw;
+        height: auto;
+    }
+
+    .main {
+        top: 0%;
+    }
+
+    .logo {
+        top: 0%;
+        margin: 20px 0 20px 0;
+        width: 400px;
+        left: calc(50% - 200px);
+    }
+}

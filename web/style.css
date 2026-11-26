@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-img {
+    display: block;
+}
+
+body {
+    color: white;
+    background-color: #E8C1C0;
+}
+
+.top-bar {
+    background-color: #D5AEA2;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #F3E6DD;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #CA9874;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #CA9874;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content {
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+.featured {
+    background-color: #E8C1C0;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.product-card {
+    background: #E1A5A9;
+    overflow: hidden;
+}
+
+.product-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card h3 {
+    margin: 20px 0 10px;
+    font-size: 22px;
+    color: white
+}
+
+.product-card p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.about {
+    display: flex;
+}
+
+.about-image {
+    flex: 1;
+    height: 300px;
+    background-image: url(oven\ and\ crumb.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content {
+    flex: 1;
+    background-color: #E1A5A9;
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white
+}
+
+.about p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #E8C1C0;
+    color: white;
+    padding-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.logo-img {
+    display: block;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #CA9874;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+input {
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+label {
+    color: #333;
+}
